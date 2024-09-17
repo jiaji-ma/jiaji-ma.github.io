@@ -21,7 +21,7 @@ repository               : "jiaji-ma/jiaji-ma.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_a.jpg"
+  avatar           : "profile_a.png"
   name             : "Jiaji Ma"
   # pronouns         : # example: "she/her"
   bio              : "Computer Science and Engineering Ph.D. student"
