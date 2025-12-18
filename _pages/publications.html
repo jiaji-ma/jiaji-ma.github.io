@@ -5,14 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
+<!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{% include base_path %} -->
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -30,7 +30,46 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
+<!-- <h1>publications</h1>
 
+<p>
+here is a list of my publications. my google scholar page can be found
+<a href="https://scholar.google.com/your_link">here</a>.
+</p> -->
+
+<ul class="pub-list">
+  <li class="pub-item">
+    <strong>Jiaji Ma</strong>, Puja Trivedi, Danai Koutra.
+    “GraphTextack: A Realistic Black-Box Node Injection Attack on LLM-Enhanced GNNs”
+    <em>AAAI Conference on Artificial Intelligence, 2026</em>
+  </li>
+
+  <li class="pub-item">
+    <strong>Jiaji Ma</strong>, Guojing Cong, Scott Auerbach.
+    “Clustering and GNN prediction with DrugMatrix”
+    <em>International Conference on Big Data (BigData), 2023</em>
+  </li>
+
+  <li class="pub-item">
+    <strong>Jiaji Ma</strong>, Seung-Hwan Lim.
+    “Efficient graph representation framework for chemical molecule similarity tasks”
+    <em>International Conference on Artificial Intelligence and Knowledge Engineering (AIKE), 2023</em>
+  </li>
+  
+</ul>
+
+<style>
+.pub-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.pub-item {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+  font-size: 1.15rem;
+}
+</style>
 
